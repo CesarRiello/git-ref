@@ -1,0 +1,35 @@
+mkdir project; cd $_;
+git flow init
+
+git branch
+git status
+
+touch README.md; echo "#Papo de Git Flow" >> README.md;
+git add README.md;
+git commit -m "Initial readme added.";
+
+git flow feature start first_feature;
+	echo "**Isso não é um treinamento**" >> README.md;
+	git commit -am "Second readme change.";
+
+	touch new_feature_file.txt
+	git add new_feature_file.txt; git commit -m "This is an awesome new file."
+
+git flow feature finish first_feature;
+
+git flow release start 1.0
+
+git flow release finish '1.0'
+
+git checkout develop
+
+git flow feature start another_feature
+
+git flow hotfix start 1.0.1
+
+	touch new_hotfix_file.txt
+	git add new_hotfix_file.txt; git commit -m "fixed."
+
+git flow hotfix finish '1.0.1'
+
+git branch
