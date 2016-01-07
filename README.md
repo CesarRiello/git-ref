@@ -155,19 +155,21 @@ OPÇÕES
 
 **git log** --prety=format:
 
-|---:|----:|----:|
-|%H | Commit | hash  |
-|%h | Commit | hash Abreviado |
-|%T | Hash | da árvore |
-|%t | Hash | da árvore abreviado |
-|%P | Hashes | pais |
-|%p | Hashes | pais abreviados |
-|%an | Nome | do Autor |
-|%ae | Email | do Autor |
-|%ad | Data | do autor  |
-|%ar | Data | do autor, relativa |
-|%cn | Nome | do Comitter |
-|%ce | Email | do committer |
-|%cd | Data | do committer |
-|%cr | Data | do committer, relativa |
-|%s | Assunto | (mensagem do commit) |
+
+| formato  | opçao | onde |
+| ------------- | ------------- | ------------- |
+| %H  | Commit  | hash  |
+| %h  | Commit  | hash Abreviado  |
+| %T  |  Hash  |  da árvore  |
+| %t  |  Hash  |  da árvore abreviado  |
+| %P  |  Hashes  |  pais  |
+| %p  |  Hashes  |  pais abreviados  |
+| %an  |  Nome  |  do Autor  |
+| %ae  |  Email  |  do Autor  |
+| %ad  |  Data  |  do autor   |
+| %ar  |  Data  |  do autor, relativa  |
+| %cn  |  Nome  |  do Comitter  |
+| %ce  |  Email  |  do committer  |
+| %cd  |  Data  |  do committer  |
+| %cr  |  Data  |  do committer, relativa  |
+| %s  |  Assunto  |  (mensagem do commit)  |
