@@ -18,7 +18,7 @@ edita o arquivo: ~/.gitconfig
 
 REPOSITÓRIOS
 -----------------------------------------------
- **git init **
+ **git init**
 
 - inicializa repositório no modo working dir (.git dir)
 
@@ -26,14 +26,14 @@ REPOSITÓRIOS
 
 - inicializa repositório no modo de armazenamento (compartilhável)
 
-**git clone **<origem> <destino>
+**git clone** <origem> <destino>
 - clona repositório e seus atributos (local ou remoto)
 
-**git remote **<opções>
+**git remote** <opções>
 - verifica e configura repositórios remotos (ou no mesmo filesystem)
  -opção: **-v** – Mostra detalhes dos remotos
 
-**git remote add**<nome> <url>
+**git remote add** <nome> <url>
 - adiciona um repositório remoto ao projeto atual
 
 VERSIONAMENTO
@@ -45,10 +45,10 @@ verifica o estado do seu working dir. (untracked, unmodified, modified, staged)
 **git status -s (ou –short)**
 versão compacta do status
 
-**git add **<arquivo>
+**git add** <arquivo>
 adiciona arquivos para o stage / monitoramento
 
-**git rm **<arquivo> <opções>
+**git rm** <arquivo> <opções>
 remove arquivos do repositório e do seu working dir.
 
 **git commit** <opções>
@@ -75,21 +75,21 @@ desfaz o commit mantem as mudanças
 **git reset --hard** <commit>
 desfaz as alterações e commits
 
-**git checkout **--<arquivo>
+**git checkout** --<arquivo>
 reverte arquivo para sua versão no último commit
 
-**git checkout <branch>**--<arquivo>
+**git checkout <branch>** --<arquivo>
 reverte arquivo para sua versão da branch especificada
 
 BRANCH E TAG
 -----------------------------------------------
- **git branch **
+ **git branch**
  lista os branchs locais
 
 **git branch -a**
  lista os branchs remotos
 
- **git branch **<nome>
+ **git branch ** <nome>
  cria um novo branch.
 
 **git checkout -b** <branch>
@@ -98,15 +98,15 @@ cria um novo branch e da checkout nele
 **git checkout -b** <localBranchName> origin/<remoteBranchName>
 cria um novo branch apartir do remoto
 
-**git branch --delete **<branch>
-**git branch -d **<branch>
+**git branch --delete** <branch>
+**git branch -d** <branch>
 apaga o branch local.
 
-**git branch -D **<branch>
+**git branch -D** <branch>
 força o delete para branchs não mergeadas
 
 **git push origin :**<branchName>
-**git push origin --delete **<branchName>
+**git push origin --delete** <branchName>
  apaga o branch remoto.
 
 **git tag** <nome>
